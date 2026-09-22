@@ -1,12 +1,6 @@
-# Chapter 3 Mastery: Planning and Reflection
+# Chapter 3 Reflections and Test Evidence
 
 ## Digits - page 58
-
-### IPO chart
-
-| Input | Process | Output |
-| --- | --- | --- |
-| A two-digit integer | Divide by 10 and use modulus 10 for the tens digit. Use modulus 10 for the ones digit. | The tens-place and ones-place digits |
 
 ### Reflection
 
@@ -14,35 +8,17 @@ The program uses integer division and the modulus operator to separate the digit
 
 ## GradeAvg - pages 59 and 61
 
-### IPO chart
-
-| Input | Process | Output |
-| --- | --- | --- |
-| Five integer grades | Add each grade to the running total with `+=`. Cast the total to `double` and divide by five. | The average grade formatted as a percentage |
-
 ### Reflection
 
 The program uses an array and loop to avoid repeating the same calculation five times. Real division preserves the decimal part of the average. JUnit tests check both a whole-number average and an average containing a decimal.
 
 ## PizzaCost - Exercise 2
 
-### IPO chart
-
-| Input | Process | Output |
-| --- | --- | --- |
-| Pizza diameter in inches | Add $0.75 labour, $1.00 rent, and `0.05 * diameter * diameter` for materials. | Cost of making the pizza, formatted as currency |
-
 ### Reflection
 
 Named constants make each part of the formula clear. The cost calculation is kept separate from keyboard input and screen output. JUnit tests verify the textbook example and another diameter.
 
 ## TimeConversion - Exercise 8
-
-### IPO chart
-
-| Input | Process | Output |
-| --- | --- | --- |
-| A time in minutes | Divide by 60 to find hours and use modulus 60 to find remaining minutes. | Time in `hours:minutes` format |
 
 ### Reflection
 
