@@ -3,7 +3,6 @@ package SkillBuilders;
 import java.util.Scanner;
 
 /*
- * Programmer: Taj Sood
  * Date: September 17, 2026
  * Program: GradeAvg
  * Purpose: Read five integer grades and display their average as a percentage.

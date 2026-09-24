@@ -3,7 +3,6 @@ package Exercises;
 import java.util.Scanner;
 
 /*
- * Programmer: Taj Sood
  * Date: September 16, 2026
  * Program: TimeConversion (Exercise 8)
  * Purpose: Convert a time in minutes to hours-and-minutes format.

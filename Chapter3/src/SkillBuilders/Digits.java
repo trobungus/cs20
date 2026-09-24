@@ -3,7 +3,6 @@ package SkillBuilders;
 import java.util.Scanner;
 
 /*
- * Programmer: Taj
  * Date: September 16, 2026
  * Program: Digits
  * Purpose: Display the tens-place and ones-place digits of a two-digit number.

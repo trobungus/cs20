@@ -3,7 +3,6 @@ package Exercises;
 import java.util.Scanner;
 
 /*
- * Programmer: Taj Sood
  * Date: September 16, 2026
  * Program: PizzaCost (Exercise 2)
  * Purpose: Calculate the cost of making a pizza from its diameter.
