@@ -6,11 +6,17 @@
 
 The program uses integer division and the modulus operator to separate the digits. The calculation is placed in methods so each result can be tested independently. JUnit tests check a regular two-digit number and a number whose ones digit is zero.
 
+## RectanglePerimeter - page 53
+
+### Reflection
+
+This program stores the width and length in clearly named variables and uses the perimeter formula from the textbook. A small calculation method makes it easy to verify that a rectangle with width 4 and length 13 has a perimeter of 34.
+
 ## GradeAvg - pages 59 and 61
 
 ### Reflection
 
-The program uses an array and loop to avoid repeating the same calculation five times. Real division preserves the decimal part of the average. JUnit tests check both a whole-number average and an average containing a decimal.
+The program uses a loop and the `+=` operator to add each grade as it is entered. Real division preserves the decimal part of the average. JUnit tests check both a whole-number average and an average containing a decimal.
 
 ## PizzaCost - Exercise 2
 
@@ -26,4 +32,4 @@ Integer division and modulus divide the total time into hours and leftover minut
 
 ## JUnit evidence
 
-All four test classes were run together with the `AllTests` suite in Eclipse on September 16, 2026. The JUnit 5 view reported **8/8 tests run, 0 errors, and 0 failures**. Add a screen dump of the green JUnit result bar to the assignment submission.
+All five test classes were run together with the `AllTests` suite in Eclipse on September 24, 2026. The JUnit 5 view reported **10/10 tests run, 0 errors, and 0 failures**. The screen dump is saved with the Chapter 3 hand-in files.

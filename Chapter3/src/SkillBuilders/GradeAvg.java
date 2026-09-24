@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /*
  * Programmer: Taj Sood
- * Date: September 16, 2026
+ * Date: September 17, 2026
  * Program: GradeAvg
  * Purpose: Read five integer grades and display their average as a percentage.
  */
@@ -16,33 +16,27 @@ public class GradeAvg
     /**
      * Calculates the average of a collection of grades using real division.
      *
-     * @param grades the grades to average
+     * @param total the sum of the grades
+     * @param numberOfGrades the number of grades in the total
      * @return the arithmetic mean of the grades
      */
-    public static double calculateAverage(int[] grades)
+    public static double calculateAverage(int total, int numberOfGrades)
     {
-        int total = 0;
-
-        for (int grade : grades)
-        {
-            total += grade;
-        }
-
-        return (double)total / grades.length;
+        return (double)total / numberOfGrades;
     }
 
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        int[] grades = new int[NUMBER_OF_GRADES];
+        int total = 0;
 
-        for (int index = 0; index < grades.length; index++)
+        for (int gradeNumber = 1; gradeNumber <= NUMBER_OF_GRADES; gradeNumber++)
         {
-            System.out.print("Enter grade " + (index + 1) + ": ");
-            grades[index] = input.nextInt();
+            System.out.print("Enter grade " + gradeNumber + ": ");
+            total += input.nextInt();
         }
 
-        double average = calculateAverage(grades);
+        double average = calculateAverage(total, NUMBER_OF_GRADES);
         System.out.printf("The average grade is: %.2f%%%n", average);
 
         input.close();

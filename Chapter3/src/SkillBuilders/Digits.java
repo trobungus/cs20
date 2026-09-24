@@ -3,7 +3,7 @@ package SkillBuilders;
 import java.util.Scanner;
 
 /*
- * Programmer: Taj Sood
+ * Programmer: Taj
  * Date: September 16, 2026
  * Program: Digits
  * Purpose: Display the tens-place and ones-place digits of a two-digit number.
@@ -40,8 +40,8 @@ public class Digits
         System.out.print("Enter a two-digit number: ");
         int number = input.nextInt();
 
-        System.out.println("The tens-place digit is: " + getTensDigit(number));
         System.out.println("The ones-place digit is: " + getOnesDigit(number));
+        System.out.println("The tens-place digit is: " + getTensDigit(number));
 
         input.close();
     }

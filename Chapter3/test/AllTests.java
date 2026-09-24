@@ -5,11 +5,13 @@ import Exercises.PizzaCostTest;
 import Exercises.TimeConversionTest;
 import SkillBuilders.DigitsTest;
 import SkillBuilders.GradeAvgTest;
+import SkillBuilders.RectanglePerimeterTest;
 
 @Suite
 @SelectClasses({
         DigitsTest.class,
         GradeAvgTest.class,
+        RectanglePerimeterTest.class,
         PizzaCostTest.class,
         TimeConversionTest.class
 })
