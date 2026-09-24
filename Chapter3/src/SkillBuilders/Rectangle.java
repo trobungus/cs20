@@ -1,7 +1,6 @@
 package SkillBuilders;
 
 /*
- * Programmer: Taj Sood
  * Date: September 24, 2026
  * Program: Rectangle
  * Purpose: Display the perimeter of a rectangle with width 4 and length 13.

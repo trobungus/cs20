@@ -1,7 +1,6 @@
 package SkillBuilders;
 
 /*
- * Programmer: Taj Sood
  * Date: September 24, 2026
  * Program: RectanglePerimeter
  * Purpose: Calculate and display the perimeter of a rectangle with width 4
