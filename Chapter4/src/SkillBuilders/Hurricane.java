@@ -20,23 +20,23 @@ public class Hurricane
     {
         if (category == 1)
         {
-            return "74-95 mph, 64-82 kts, or 119-153 km/hr";
+            return "74-95 mph or 64-82 kt or 119-153 km/hr";
         }
         else if (category == 2)
         {
-            return "96-110 mph, 83-95 kts, or 154-177 km/hr";
+            return "96-110 mph or 83-95 kt or 154-177 km/hr";
         }
         else if (category == 3)
         {
-            return "111-130 mph, 96-113 kts, or 178-209 km/hr";
+            return "111-130 mph or 96-113 kt or 178-209 km/hr";
         }
         else if (category == 4)
         {
-            return "131-155 mph, 114-135 kts, or 210-249 km/hr";
+            return "131-155 mph or 114-135 kt or 210-249 km/hr";
         }
         else if (category == 5)
         {
-            return "greater than 155 mph, 135 kts, or 249 km/hr";
+            return "greater than 155 mph or 135 kt or 249 km/hr";
         }
         else
         {

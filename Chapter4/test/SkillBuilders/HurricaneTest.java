@@ -10,14 +10,14 @@ public class HurricaneTest
     @Test
     public void givesCategoryOneSpeeds()
     {
-        assertEquals("74-95 mph, 64-82 kts, or 119-153 km/hr",
+        assertEquals("74-95 mph or 64-82 kt or 119-153 km/hr",
                 Hurricane.getWindSpeed(1));
     }
 
     @Test
     public void givesCategoryFiveSpeeds()
     {
-        assertEquals("greater than 155 mph, 135 kts, or 249 km/hr",
+        assertEquals("greater than 155 mph or 135 kt or 249 km/hr",
                 Hurricane.getWindSpeed(5));
     }
 
