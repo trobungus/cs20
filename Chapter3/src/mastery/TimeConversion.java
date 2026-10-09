@@ -1,4 +1,4 @@
-package Exercises;
+package mastery;
 
 import java.util.Scanner;
 

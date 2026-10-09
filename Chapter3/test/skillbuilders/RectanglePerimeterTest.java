@@ -1,4 +1,4 @@
-package SkillBuilders;
+package skillbuilders;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,4 @@
-package SkillBuilders;
+package skillbuilders;
 
 import java.util.Scanner;
 
