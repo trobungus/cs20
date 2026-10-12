@@ -1,12 +1,15 @@
+/*
+ * Program: CountVowels.java    Last Date of this Revision: October 11, 2026
+ *
+ * Purpose: Count the vowels in a line of text.
+ *
+ * School: CHHS
+ * Course: Computer Programming 20
+ */
 package mastery;
 
 import java.util.Scanner;
 
-/*
- * Date: October 11, 2026
- * Program: CountVowels
- * Purpose: Count the vowels in a line of text.
- */
 public class CountVowels
 {
 
@@ -41,11 +44,19 @@ public class CountVowels
 
         System.out.print("Enter text: ");
         String text = input.nextLine();
+        int vowelCount = countVowels(text);
 
         System.out.println("The number of vowels in " + text + " is "
-                + countVowels(text) + ".");
+                + vowelCount + ".");
 
         input.close();
     }
 
 }
+
+/* Screen Dump
+
+Enter text: Java Programming Assignment
+The number of vowels in Java Programming Assignment is 8.
+
+ */

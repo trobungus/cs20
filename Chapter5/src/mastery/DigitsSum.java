@@ -1,14 +1,19 @@
+/*
+ * Program: DigitsSum.java      Last Date of this Revision: October 11, 2026
+ *
+ * Purpose: Find the sum of the digits in a non-negative integer.
+ *
+ * School: CHHS
+ * Course: Computer Programming 20
+ */
 package mastery;
 
 import java.util.Scanner;
 
-/*
- * Date: October 11, 2026
- * Program: DigitsSum
- * Purpose: Find the sum of the digits in a non-negative integer.
- */
 public class DigitsSum
 {
+
+    private static final int DECIMAL_BASE = 10;
 
     /**
      * Calculates the sum of the digits in a non-negative integer.
@@ -22,8 +27,8 @@ public class DigitsSum
 
         while (number > 0)
         {
-            sum += number % 10;
-            number /= 10;
+            sum += number % DECIMAL_BASE;
+            number /= DECIMAL_BASE;
         }
 
         return sum;
@@ -42,10 +47,18 @@ public class DigitsSum
             number = input.nextInt();
         }
 
-        System.out.println("The sum of the digits is: "
-                + calculateDigitSum(number));
+        int digitSum = calculateDigitSum(number);
+
+        System.out.println("The sum of the digits is: " + digitSum);
 
         input.close();
     }
 
 }
+
+/* Screen Dump
+
+Enter a non-negative integer: 892
+The sum of the digits is: 19
+
+ */

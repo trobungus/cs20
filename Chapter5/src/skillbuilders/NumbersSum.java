@@ -1,12 +1,15 @@
+/*
+ * Program: NumbersSum.java     Last Date of this Revision: October 11, 2026
+ *
+ * Purpose: Display the numbers from 1 to a chosen number and find their sum.
+ *
+ * School: CHHS
+ * Course: Computer Programming 20
+ */
 package skillbuilders;
 
 import java.util.Scanner;
 
-/*
- * Date: October 11, 2026
- * Program: NumbersSum
- * Purpose: Display the numbers from 1 to a chosen number and find their sum.
- */
 public class NumbersSum
 {
 
@@ -41,14 +44,28 @@ public class NumbersSum
             number = input.nextInt();
         }
 
+        int sum = calculateSum(number);
+
         for (int current = 1; current <= number; current++)
         {
             System.out.println(current);
         }
 
-        System.out.println("The sum is: " + calculateSum(number));
+        System.out.println("The sum is: " + sum);
 
         input.close();
     }
 
 }
+
+/* Screen Dump
+
+Enter a positive integer: 5
+1
+2
+3
+4
+5
+The sum is: 15
+
+ */

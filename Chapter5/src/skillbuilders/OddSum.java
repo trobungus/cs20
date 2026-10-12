@@ -1,12 +1,15 @@
+/*
+ * Program: OddSum.java         Last Date of this Revision: October 11, 2026
+ *
+ * Purpose: Find the sum of the odd numbers from 1 to a chosen number.
+ *
+ * School: CHHS
+ * Course: Computer Programming 20
+ */
 package skillbuilders;
 
 import java.util.Scanner;
 
-/*
- * Date: October 11, 2026
- * Program: OddSum
- * Purpose: Find the sum of the odd numbers from 1 to a chosen number.
- */
 public class OddSum
 {
 
@@ -41,10 +44,18 @@ public class OddSum
             number = input.nextInt();
         }
 
-        System.out.println("The sum of the odd numbers is: "
-                + calculateOddSum(number));
+        int oddSum = calculateOddSum(number);
+
+        System.out.println("The sum of the odd numbers is: " + oddSum);
 
         input.close();
     }
 
 }
+
+/* Screen Dump
+
+Enter a positive integer: 10
+The sum of the odd numbers is: 25
+
+ */
