@@ -1,3 +1,10 @@
+/*
+ * Program: SpanishNumbersTest.java
+ * Last Date of this Revision: November 2, 2026
+ * Purpose: Test SpanishNumbers with expected results and boundary cases.
+ * School: CHHS
+ * Course: Computer Programming 20
+ */
 package skillbuilders;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -31,5 +38,21 @@ public class SpanishNumbersTest
         }
         assertEquals("uno\ndos\ntres\ncuatro\ncinco\nseis\nsiete\nocho\nnueve\ndiez\n",
                 output.toString().replace("\r\n", "\n"));
+    }
+    @Test
+    public void displaysTheWordForOnePassedNumber()
+    {
+        java.io.ByteArrayOutputStream output = new java.io.ByteArrayOutputStream();
+        java.io.PrintStream original = System.out;
+        try
+        {
+            System.setOut(new java.io.PrintStream(output));
+            SpanishNumbers.displayNumber(4);
+        }
+        finally
+        {
+            System.setOut(original);
+        }
+        assertEquals("cuatro", output.toString().trim());
     }
 }

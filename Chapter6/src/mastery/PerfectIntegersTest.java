@@ -1,3 +1,10 @@
+/*
+ * Program: PerfectIntegersTest.java
+ * Last Date of this Revision: November 2, 2026
+ * Purpose: Test PerfectIntegers with expected results and boundary cases.
+ * School: CHHS
+ * Course: Computer Programming 20
+ */
 package mastery;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

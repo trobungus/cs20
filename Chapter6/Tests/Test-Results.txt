@@ -1,0 +1,12 @@
+Chapter 6 - final JUnit test results
+November 2, 2026
+
+15 tests found
+15 tests started
+15 tests successful
+0 tests failed
+0 tests aborted
+
+Each of the five test classes contains three named test cases.
+The Eclipse screen dump records the earlier 12-test run; the final three
+additional boundary/output cases also passed in the JUnit launcher.
