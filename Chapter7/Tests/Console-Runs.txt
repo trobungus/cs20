@@ -1,0 +1,38 @@
+Console run: TestCircle
+Supplied input: (none)
+Circle radius: 3.0
+Circle circumference: 18.84
+Circle area: 28.26
+The formula for the area of a circle is a=Pi*r*r
+Same radius: false
+Circle has radius 3.0
+Circle has radius 4.0
+Same radius after change: true
+
+
+Console run: TestRectangle
+Supplied input: (none)
+Default: Rectangle has length 1.0 and width 1.0
+Length: 5.0
+Width: 3.0
+Area: 15.0
+Perimeter: 16.0
+The formula for the area of a rectangle is a=length*width
+Same dimensions: true
+Same dimensions after change: false
+Rectangle has length 5.0 and width 4.0
+
+
+Console run: DiceRollGame
+Supplied input: 100, 0, -1
+You have 1000 points.
+How many points do you want to risk? (-1 to quit) Make a call (0 for low, 1 for high): You rolled: 12
+You now have 900 points.
+You have 900 points.
+How many points do you want to risk? (-1 to quit)
+
+Console run: AdderGame
+Supplied input: -1, -1, -1, 999
+Enter 999 at any answer to quit.
+8 + 20 = Wrong answer. Enter another answer: Wrong answer. Enter another answer: The correct answer is: 28
+4 + 7 = Your score is: 0
